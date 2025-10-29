@@ -23,7 +23,7 @@ uint32_t millis(void)
 {
     return sysTickUptime;
 }
-
+//888
 void vl53l0x_gpio_Init(void)
 {
 		RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);		//开启GPIOA的时钟
@@ -31,8 +31,6 @@ void vl53l0x_gpio_Init(void)
 	/*GPIO初始化*/
 	GPIO_InitTypeDef GPIO_InitStructure;
 	
-	
-
 	
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7;
