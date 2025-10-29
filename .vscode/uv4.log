@@ -8,12 +8,8 @@ compiling main.c...
 .\Hardware\JX90614.h(12): warning:  #1-D: last line of file ends without a newline
   #endif 
 User\main.c: 3 warnings, 0 errors
-compiling vl53l0x.c...
-Hardware\mi2c.h(22): warning:  #1-D: last line of file ends without a newline
-  #endif
-Hardware\vl53l0x.c: 1 warning, 0 errors
 linking...
 Program Size: Code=9776 RO-data=1788 RW-data=48 ZI-data=1024  
 FromELF: creating hex file...
-".\Objects\Project.axf" - 0 Error(s), 4 Warning(s).
-Build Time Elapsed:  00:00:01
+".\Objects\Project.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:00
