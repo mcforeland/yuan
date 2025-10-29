@@ -1663,10 +1663,10 @@ Memory Map of the image
     0x080024fc   0x080024fc   0x00000024   Code   RO         4230    i._printf_post_padding  mc_w.l(printfa.o)
     0x08002520   0x08002520   0x0000002e   Code   RO         4231    i._printf_pre_padding  mc_w.l(printfa.o)
     0x0800254e   0x0800254e   0x0000000e   Code   RO         3525    i.fputc             serial.o
-    0x0800255c   0x0800255c   0x00000130   Code   RO         3787    i.main              main.o
-    0x0800268c   0x0800268c   0x0000000c   Code   RO         3788    i.millis            main.o
+    0x0800255c   0x0800255c   0x00000130   Code   RO         3870    i.main              main.o
+    0x0800268c   0x0800268c   0x0000000c   Code   RO         3871    i.millis            main.o
     0x08002698   0x08002698   0x00000034   Code   RO         3658    i.setSignalRateLimit  vl53l0x.o
-    0x080026cc   0x080026cc   0x00000050   Code   RO         3789    i.vl53l0x_gpio_Init  main.o
+    0x080026cc   0x080026cc   0x00000050   Code   RO         3872    i.vl53l0x_gpio_Init  main.o
     0x0800271c   0x0800271c   0x000005f0   Data   RO         3305    .constdata          oled.o
     0x08002d0c   0x08002d0c   0x00000020   Data   RO         4295    Region$$Table       anon$$obj.o
 
@@ -1679,7 +1679,7 @@ Memory Map of the image
     0x20000014   0x08002d40   0x00000002   Data   RW         3526    .data               serial.o
     0x20000016   0x08002d42   0x00000002   PAD
     0x20000018   0x08002d44   0x0000000c   Data   RW         3659    .data               vl53l0x.o
-    0x20000024   0x08002d50   0x00000008   Data   RW         3790    .data               main.o
+    0x20000024   0x08002d50   0x00000008   Data   RW         3873    .data               main.o
     0x2000002c   0x08002d58   0x00000004   Data   RW         4269    .data               mc_w.l(stdout.o)
     0x20000030        -       0x00000400   Zero   RW            1    STACK               startup_stm32f10x_md.o
 
@@ -1693,7 +1693,7 @@ Image component sizes
 
          0          0          0          0          0       4548   core_cm3.o
         56          0          0          0          0        954   delay.o
-       396        130          0          8          0      10701   main.o
+       396        130          0          8          0       2353   main.o
        334         18          0          0          0       5064   mi2c.o
        120         14          0          0          0     204891   misc.o
        794         26       1520          0          0       7861   oled.o
@@ -1705,7 +1705,7 @@ Image component sizes
        200         24          0         20          0      12661   stm32f10x_rcc.o
        376          6          0          0          0      12919   stm32f10x_usart.o
        260         26          0          0          0      24953   system_stm32f10x.o
-      3012         76          0         12          0      17550   vl53l0x.o
+      3012         76          0         12          0      25898   vl53l0x.o
 
     ----------------------------------------------------------------------
       6094        350       1788         44       1024     324801   Object Totals
